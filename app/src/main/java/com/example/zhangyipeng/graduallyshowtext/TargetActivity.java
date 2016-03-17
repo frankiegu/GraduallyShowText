@@ -30,11 +30,11 @@ public class TargetActivity extends AppCompatActivity {
         String s = "http://www.jianshu.com/p/6d97b4a10b18\n" +
                 "ubuntu12.04(64bit)编译android4.4源码、sdk及kernel\n" +
                 "字数2619 阅读286 评论6 喜欢16\n" +
-                "最近闲来无事，就想编译一下android源码折腾折腾。过程还算顺利，编译源码用了近3小时，编译sdk用了近30分钟。关于为什么要编译4.4的源码，而不编译5.0、6.0的源码，一是正好笔记本中有下载好的4.4源码；二是一些源码学习的资料大都是4.x、2.x的源码，而且4.4系统也是现在市场占有率最大的；三是基于4.4的源码编译，出现问题易于解决，因为大家都遇到过嘛(嘿嘿！)。\n" +
-                "\n" +
-                "当然类似的文章教程很多，我主要是记录自己编译源码的过程以及遇到的一些问题，方便自己以后查看。";
+                "Get ready for the next version of Android! Test your apps on Nexus and other devices." +
+                " Support new system behaviors to save power and memory. Extend your apps with multi-window UI," +
+                " direct reply notifications and more.";
         xtv.setTextContent(s);
-        xtv.setDelayPlayTime(300);
+        xtv.setDelayPlayTime(200);
         xtv.setTextAlignment("normal");
 
     }

@@ -21,10 +21,14 @@ public class XTextUtils {
         for (int i = 0; i < len; i++) {
 
             char c = content.charAt(i);
+            char c_1 = ' ';
+            if(i>=1) {
+                c_1 = content.charAt(i - 1);
+            }
             if (isEnglish(c + "")) {
                 s += c;
                 sn = 1;
-            }else if (isNumber(c + "")) {
+            }else if (isNumber(c + "") || (isNumber(c_1+"") && (c+"").equals("."))) {
                 n += c;
                 sn = 2;
             } else {
