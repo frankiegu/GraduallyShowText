@@ -25,7 +25,7 @@ public class XTextUtils {
             if(i>=1) {
                 c_1 = content.charAt(i - 1);
             }
-            if (isEnglish(c + "")) {
+            if (isEnglish(c + "") || (isEnglish(c_1+"") && (c+"").equals("'"))) {
                 s += c;
                 sn = 1;
             }else if (isNumber(c + "") || (isNumber(c_1+"") && (c+"").equals("."))) {
