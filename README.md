@@ -1,3 +1,3 @@
 >GraduallyShowText
 
-![GraduallyShowText](./Show.gif)
+![GraduallyShowText](./showText3.gif)
